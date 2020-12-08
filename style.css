@@ -1,0 +1,76 @@
+
+
+#main {
+    background-color: #f0eeec;
+    margin: 10px;
+    padding: 20px 0;
+}
+
+#title {
+    text-align: center;
+}
+
+#img-div {
+    width: 80vw;
+    margin: auto;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 0;
+}
+
+#tribute-info {
+}
+
+#tribute-heading {
+    text-align: center;
+}
+
+li {
+    margin: 10px;
+}
+
+p {
+    margin: 40px 20px;
+}
+
+@media only screen and (min-width: 800px) {
+
+    #main {
+        margin: 0 5%;
+        padding: 10% 0;
+    }
+
+    #title {
+        margin-bottom: 5%;
+        font-size: 64px;
+    }
+
+    #image {
+        margin: auto;
+    }
+
+    #img-caption {
+        margin-top: 10px;
+    }
+
+    #tribute-heading {
+        margin: 5%;
+    }
+
+    li {
+        margin: 3% 20%;
+    }
+
+    p {
+        margin: 3% 20%;
+    }
+    
+}
